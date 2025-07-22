@@ -9,7 +9,7 @@
 #define int64 __int64
 #pragma warning(disable:4127)
 
-#define get_milliseconds GetTickCount
+#define getMilliseconds GetTickCount
 
 #else
 
@@ -20,7 +20,7 @@ typedef unsigned int U32;
 typedef unsigned long long U64;
 
 #include <time.h>
-static int get_milliseconds()
+static int getMilliseconds()
 {
   struct timespec ts;
   clock_gettime( CLOCK_MONOTONIC, &ts );
@@ -137,7 +137,7 @@ int main( int argc, char ** argv )
   file = malloc( sizeof(int) * ( 2 * timing_count + HEADER ) );
   ts = file + HEADER;
 
-  totalms = get_milliseconds();  
+  totalms = getMilliseconds();  
   totalcycles = STBIR_PROFILE_FUNC();
   for( ir = 0 ; ir < INSIZES ; ir++ )
   {
@@ -177,7 +177,7 @@ int main( int argc, char ** argv )
       }
     }
   }
-  totalms = get_milliseconds() - totalms;  
+  totalms = getMilliseconds() - totalms;  
   totalcycles = STBIR_PROFILE_FUNC() - totalcycles;
 
   printf("\n");

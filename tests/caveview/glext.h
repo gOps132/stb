@@ -9496,8 +9496,8 @@ GLAPI void APIENTRY glTextureImage3DMultisampleCoverageNV (GLuint texture, GLenu
 
 #ifndef GL_NV_texture_shader
 #define GL_NV_texture_shader 1
-#define GL_OFFSET_TEXTURE_RECTANGLE_NV    0x864C
-#define GL_OFFSET_TEXTURE_RECTANGLE_SCALE_NV 0x864D
+#define GL_OFFsetTexture_RECTANGLE_NV    0x864C
+#define GL_OFFsetTexture_RECTANGLE_SCALE_NV 0x864D
 #define GL_DOT_PRODUCT_TEXTURE_RECTANGLE_NV 0x864E
 #define GL_RGBA_UNSIGNED_DOT_PRODUCT_MAPPING_NV 0x86D9
 #define GL_UNSIGNED_INT_S8_S8_8_8_NV      0x86DA
@@ -9507,17 +9507,17 @@ GLAPI void APIENTRY glTextureImage3DMultisampleCoverageNV (GLuint texture, GLenu
 #define GL_TEXTURE_SHADER_NV              0x86DE
 #define GL_SHADER_OPERATION_NV            0x86DF
 #define GL_CULL_MODES_NV                  0x86E0
-#define GL_OFFSET_TEXTURE_MATRIX_NV       0x86E1
-#define GL_OFFSET_TEXTURE_SCALE_NV        0x86E2
-#define GL_OFFSET_TEXTURE_BIAS_NV         0x86E3
-#define GL_OFFSET_TEXTURE_2D_MATRIX_NV    0x86E1
-#define GL_OFFSET_TEXTURE_2D_SCALE_NV     0x86E2
-#define GL_OFFSET_TEXTURE_2D_BIAS_NV      0x86E3
+#define GL_OFFsetTexture_MATRIX_NV       0x86E1
+#define GL_OFFsetTexture_SCALE_NV        0x86E2
+#define GL_OFFsetTexture_BIAS_NV         0x86E3
+#define GL_OFFsetTexture_2D_MATRIX_NV    0x86E1
+#define GL_OFFsetTexture_2D_SCALE_NV     0x86E2
+#define GL_OFFsetTexture_2D_BIAS_NV      0x86E3
 #define GL_PREVIOUS_TEXTURE_INPUT_NV      0x86E4
 #define GL_CONST_EYE_NV                   0x86E5
 #define GL_PASS_THROUGH_NV                0x86E6
 #define GL_CULL_FRAGMENT_NV               0x86E7
-#define GL_OFFSET_TEXTURE_2D_NV           0x86E8
+#define GL_OFFsetTexture_2D_NV           0x86E8
 #define GL_DEPENDENT_AR_TEXTURE_2D_NV     0x86E9
 #define GL_DEPENDENT_GB_TEXTURE_2D_NV     0x86EA
 #define GL_DOT_PRODUCT_NV                 0x86EC
